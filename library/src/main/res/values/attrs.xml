@@ -15,6 +15,11 @@
     <declare-styleable name="AddFloatingActionButton">
         <attr name="fab_plusIconColor" format="color"/>
     </declare-styleable>
+    <declare-styleable name="FloatingActionMenuButton">
+        <attr name="fab_strokeIconNormal" format="reference"/>
+        <attr name="fab_strokeIconPressed" format="reference"/>
+        <attr name="fab_expanded" format="boolean"/>
+    </declare-styleable>
     <declare-styleable name="FloatingActionsMenu">
         <attr name="fab_addButtonColorPressed" format="color"/>
         <attr name="fab_addButtonColorNormal" format="color"/>
@@ -22,6 +27,8 @@
             <enum name="normal" value="0"/>
             <enum name="mini" value="1"/>
         </attr>
+        <attr name="fab_addButtonPlusIconNormal" format="reference"/>
+        <attr name="fab_addButtonPlusIconPressed" format="reference"/>
         <attr name="fab_addButtonPlusIconColor" format="color"/>
         <attr name="fab_addButtonStrokeVisible" format="boolean"/>
         <attr name="fab_labelStyle" format="reference"/>
