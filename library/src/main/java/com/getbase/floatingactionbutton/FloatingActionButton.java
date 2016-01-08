@@ -276,7 +276,7 @@ public class FloatingActionButton extends ImageButton {
     }
   }
 
-  private StateListDrawable createFillDrawable(float strokeWidth) {
+  StateListDrawable createFillDrawable(float strokeWidth) {
     StateListDrawable drawable = new StateListDrawable();
     drawable.addState(new int[] { -android.R.attr.state_enabled }, createCircleDrawable(mColorDisabled, strokeWidth));
     drawable.addState(new int[] { android.R.attr.state_pressed }, createCircleDrawable(mColorPressed, strokeWidth));
@@ -284,7 +284,7 @@ public class FloatingActionButton extends ImageButton {
     return drawable;
   }
 
-  private Drawable createCircleDrawable(int color, float strokeWidth) {
+  Drawable createCircleDrawable(int color, float strokeWidth) {
     int alpha = Color.alpha(color);
     int opaqueColor = opaque(color);
 

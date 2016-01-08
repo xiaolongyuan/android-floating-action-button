@@ -15,18 +15,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="16dp"/>
 
-    <com.getbase.floatingactionbutton.FloatingActionMenuButton
-        android:id="@+id/menu_icon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        fab:fab_strokeIconNormal="@drawable/ic_fab_star"
-        fab:fab_strokeIconPressed="@drawable/icon_home"
-        fab:fab_colorNormal="@color/pink"
-        fab:fab_colorPressed="@color/pink_pressed"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="16dp"/>
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -109,13 +97,12 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        fab:fab_addButtonColorNormal="@color/white"
-        fab:fab_addButtonColorPressed="@color/white_pressed"
-        fab:fab_addButtonPlusIconColor="@color/half_black"
+        fab:fab_addButtonColorNonExpanded="@color/pink"
+        fab:fab_addButtonColorExpanded="@color/white"
+        fab:fab_addButtonColorDisabled="@color/half_black"
+        fab:fab_addButtonColorPressed="@color/half_black"
         fab:fab_addButtonPlusIconNormal="@drawable/ic_fab_star"
         fab:fab_addButtonPlusIconPressed="@drawable/icon_home"
-        fab:fab_colorNormal="@color/pink"
-        fab:fab_colorPressed="@color/pink_pressed"
         fab:fab_labelStyle="@style/menu_labels_style"
         android:layout_marginBottom="16dp"
         android:layout_marginRight="16dp"
